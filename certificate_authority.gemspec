@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "certificate_authority"
-  s.version = "0.1.6"
+  s.version = "0.1.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Chandler"]
-  s.date = "2012-08-12"
+  s.date = "2012-09-17"
   s.email = "chris@flatterline.com"
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/cchandler/certificate_authority"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.15"
+  s.rubygems_version = "1.8.24"
   s.summary = "Ruby gem for managing the core functions outlined in RFC-3280 for PKI"
 
   if s.respond_to? :specification_version then
